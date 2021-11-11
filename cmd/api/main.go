@@ -54,6 +54,6 @@ func main() {
 
 	err := srv.ListenAndServe()
 	if err != nil {
-		log.Println(err)
+		app.logger.Println(err)
 	}
 }
